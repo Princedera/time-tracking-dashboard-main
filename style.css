@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+}
+
+.container {
+    font-size: 18px;
+    color: white;
+    display: grid;
+}
+
+.section {
+    height: 17rem;
+    width: 20% ;
+    position: relative;
+    background-image: url("/images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: -3%;
+    background-color:hsl(15, 100%, 70%);
+    border-radius: 15px;
+    padding-top: 4px;
+}
+
+.inner {
+    height:auto;
+    background-color:hsl(235, 46%, 20%);
+    z-index: 10;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.inner .content {
+    margin-top: 20px;
+}
+
+.inner .content h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.ellipsis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ellipsis img {
+    width: 10%;
+    height: 10%;
+}
+
+
+.daily {
+    display: none;
+}
+
+.monthly {
+    display: none;
+}
+
+/*------------section-one--------------*/
+
+.main {
+    width: 20%;
+    height: auto;
+    background-color:hsl(235, 46%, 20%);
+    color: white;
+    border-radius: 10px;
+}
+
+.inner-section {
+    width: auto;
+    height: 25rem;
+    border-radius:10px 10px 15px 15px;
+    background-color:  hsl(246, 80%, 60%);
+    color: white;
+}
+
+.main img {
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.inner-section p {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.main h1 {
+    font-size: 50px;
+    margin: 0px 0px 0px 30px;
+}
+
+.main-calender {
+    margin-top: 25px;
+}
+
+.main-calender p {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+/*-----section-one end------*/
+
+.play{
+    background-image: url("images/icon-play.svg");
+    background-color: hsl(195, 74%, 62%) ;
+}
+
+.study {
+    background-image: url("images/icon-study.svg");
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+    background-image: url("images/icon-exercise.svg");
+    background-color:  hsl(145, 58%, 55%);
+}
+.selfcare {
+    background-image: url("images/icon-self-care.svg");
+    background-color: hsl(43, 84%, 65%);
+}
+
+
